@@ -1,7 +1,7 @@
 package GFT;
 
 public interface Imposto{
-   
+
    public default void calcularImposto(){
       if(this.getClass().getName() == "GFT.Livro"){
 
